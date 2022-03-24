@@ -7,7 +7,7 @@ inputs:
     default: 'Julien'
 ouputs:
   response:
-    description: 'Réponse de l'action'
+    description: "Réponse de l'action"
 runs:
   using: 'node16'
   main: 'index.js'
