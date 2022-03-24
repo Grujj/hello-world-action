@@ -1,0 +1,13 @@
+name: 'Hello World Action'
+description: 'Send a hello world in a runner'
+inputs:
+  name:
+    description: 'Destinataire du bonjour'
+    required: true
+    default: 'Julien'
+ouputs:
+  response:
+    description: 'Réponse de l'action'
+runs:
+  using: 'node16'
+  main: 'index.js'
